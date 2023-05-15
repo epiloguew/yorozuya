@@ -1,0 +1,20 @@
+{
+    "name": "yorozuya.js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/boundle.js",
+    "type": "module",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "keywords": [
+        "utils"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@rollup/plugin-terser": "^0.4.1",
+        "rollup": "^2.79.1",
+        "rollup-plugin-cleanup": "^3.2.1"
+    }
+}

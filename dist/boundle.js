@@ -1,0 +1,1 @@
+var e=Object.freeze({__proto__:null,HexToR:(e,t,n=1)=>{const o=e.split("#")[1];if(console.log(o,"33"),6===o.length){let e=(e=>{let t=0;return function(){const n=t;return t+=2,parseInt("0x"+e.slice(n,t))}})(o);const r=`${e()},${e()},${e()}${t?","+n:""}`;return e=null,r}throw new Error(""+(3===o.length?"need full options":"need true options"))}});export{e as Color};
