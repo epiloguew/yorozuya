@@ -1,3 +1,3 @@
 import * as Color from "./color/module.js";
-
-export { Color };
+import * as Utils from "./utils/module.js";
+export { Color, Utils };
